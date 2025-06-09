@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(226, 226, 226);
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.header__logo{
+    background-color: aliceblue;
+    display: flex;
+    justify-items: center;
+}
+
+.header__logo p{
+    background-color: aliceblue;
+    padding: 1%;
+}
+
+.header__logo img{
+    height: 6vh;
+    width: 8vw;
+    background-color: aliceblue;
+}
+
+#section{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+   background-color: white;
+}
+h1{
+    background-color: whitesmoke;
+    justify-content: center;
+    display: flex;
+}
+.cocas{
+ display: flex;
+}
+.cocas img{
+    height: 22vh;
+    width: 20vw;
+}
