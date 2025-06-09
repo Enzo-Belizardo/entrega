@@ -13,20 +13,20 @@ body{
 
 
 .header__logo{
-    background-color: aliceblue;
+    background-color: white;
     display: flex;
     justify-items: center;
 }
 
 .header__logo p{
-    background-color: aliceblue;
+    background-color: white;
     padding: 1%;
 }
 
 .header__logo img{
     height: 6vh;
     width: 8vw;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 #section{
@@ -46,4 +46,30 @@ h1{
 .cocas img{
     height: 22vh;
     width: 20vw;
+}
+
+#button{
+    display: flex;
+}
+
+.butao {
+    margin: 1cm;
+    display: inline-block; 
+    background-color: red; 
+    color: white;
+    padding: 0.8rem 1.5rem; 
+    text-decoration: none;
+    border-radius: 0.5rem;
+    align-self: center;
+    margin: 0 auto;
+}
+.butao:hover{
+    background-color: darkred;
+}
+
+footer{
+    margin: 20px;
+    padding: 2vw;
+    background-color: rgb(235, 235, 235);
+    display: flex;
 }
