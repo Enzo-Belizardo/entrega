@@ -11,10 +11,30 @@ body{
     margin: 0;
 }
 
+header{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
 
+}
+header a{
+    display: flex;
+    justify-content: space-evenly;
+}
+.botao {
+    margin: 1cm;
+    display: inline-block; 
+    background-color: red; 
+    color: white;
+    padding: 0.8rem 1.5rem; 
+    text-decoration: none;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    
+}
 .header__logo{
     background-color: white;
-    display: flex;
     justify-items: center;
 }
 
@@ -34,14 +54,17 @@ body{
     flex-direction: row;
    justify-content: space-evenly;
    background-color: white;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 300px;
 }
 h1{
-    background-color: whitesmoke;
+background-color: rgb(226, 226, 226);
     justify-content: center;
     display: flex;
 }
-.cocas{
- display: flex;
+h2{
+    color: red;
 }
 .cocas img{
     height: 22vh;
