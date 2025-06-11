@@ -65,10 +65,21 @@ background-color: rgb(226, 226, 226);
 }
 h2{
     color: red;
+    background-color: white;
+}
+.cocas{
+    background-color: white;
+}
+.cocas s{
+    background-color: white;
+}
+.cocas p{
+    background-color: white;
 }
 .cocas img{
     height: 22vh;
     width: 20vw;
+    background-color: white;
 }
 
 #button{
