@@ -44,8 +44,8 @@ header a{
 }
 
 .header__logo img{
-    height: 6vh;
-    width: 8vw;
+    height: 8vh;
+    width: 10vw;
     background-color: white;
 }
 
@@ -102,8 +102,10 @@ h2{
 }
 
 footer{
-    margin: 20px;
-    padding: 2vw;
-    background-color: rgb(235, 235, 235);
     display: flex;
+    margin-top: 15%;
+    margin-bottom: auto;
+    background-color: rgb(235, 235, 235);
+    height: 30px;
+    justify-content: center;
 }
